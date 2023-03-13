@@ -1,3 +1,6 @@
 ---
 type: "git"
 uri: "https://github.com/aws/aws-sdk-java"
+tagMapping:
+  - pattern: (.*)
+    tag: v$1
